@@ -28,5 +28,5 @@ func main(){
 		c.String(http.StatusOK, "Answer: " + result)
 	})
 
-	router.Run(":8081")
+	router.Run(":"+port)
 }
