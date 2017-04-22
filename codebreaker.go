@@ -2,7 +2,7 @@ package main
 
 import "fmt"
 
-var secret = ""
+var secret = "2584"
 
 func setSecret(i string){
   secret = i
